@@ -7,6 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8892AF4B2014B28F00179B7D /* EthersWallet_ios_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8892AF492014B28F00179B7D /* EthersWallet_ios_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8892AF572014B2D100179B7D /* Signer.m in Sources */ = {isa = PBXBuildFile; fileRef = E22A59E61EBA9D8500AEE894 /* Signer.m */; };
+		8892AF582014B2D100179B7D /* CloudKeychainSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A3311F3EEF0500B315B6 /* CloudKeychainSigner.m */; };
+		8892AF5A2014B2E200179B7D /* AsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04421E428E0E0013E5A7 /* AsyncOperation.m */; };
+		8892AF5B2014B2E200179B7D /* CachedDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04441E428E0E0013E5A7 /* CachedDataStore.m */; };
+		8892AF5C2014B2E200179B7D /* IndexPathArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04461E428E0E0013E5A7 /* IndexPathArray.m */; };
+		8892AF5D2014B2E200179B7D /* SharedDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04481E428E0E0013E5A7 /* SharedDefaults.m */; };
+		8892AF5E2014B2E200179B7D /* SignedRemoteDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E29AB1081F4E199C0009FEF0 /* SignedRemoteDictionary.m */; };
+		8892AF5F2014B2E200179B7D /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA044A1E428E0E0013E5A7 /* UIColor+hex.m */; };
+		8892AF602014B2E200179B7D /* UIImage+resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA044C1E428E0E0013E5A7 /* UIImage+resize.m */; };
+		8892AF612014B2E200179B7D /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA044E1E428E0E0013E5A7 /* Utilities.m */; };
+		8892AF622014B2ED00179B7D /* EthersScriptHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B972531FDEF74B00D4CC18 /* EthersScriptHandler.m */; };
+		8892AF632014B2F600179B7D /* ConfigLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2491AB51F42642A007DB5A4 /* ConfigLabel.m */; };
+		8892AF642014B2F600179B7D /* ConfigToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C167211F4AB5A2001B4A31 /* ConfigToggle.m */; };
+		8892AF652014B2F600179B7D /* ConfigTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A3281F3E358B00B315B6 /* ConfigTextField.m */; };
+		8892AF662014B2F600179B7D /* ConfigView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A32B1F3E35A400B315B6 /* ConfigView.m */; };
+		8892AF672014B2F600179B7D /* GasLimitKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FF6A0E1F4673F300544B0B /* GasLimitKeyboardView.m */; };
+		8892AF682014B2F600179B7D /* GasPriceKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FF6A121F467F1700544B0B /* GasPriceKeyboardView.m */; };
+		8892AF692014B2F600179B7D /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FF6A181F4773A800544B0B /* KeyboardView.m */; };
+		8892AF6A2014B2F600179B7D /* SliderKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FF6A1B1F47988E00544B0B /* SliderKeyboardView.m */; };
+		8892AF6B2014B2FE00179B7D /* ConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A30B1F3CF10300B315B6 /* ConfigController.m */; };
+		8892AF6C2014B2FE00179B7D /* ConfigNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A30E1F3CF39B00B315B6 /* ConfigNavigationController.m */; };
+		8892AF6D2014B2FE00179B7D /* DebugConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C1671D1F4AB48F001B4A31 /* DebugConfigController.m */; };
+		8892AF6E2014B2FE00179B7D /* DoneConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A32E1F3E534300B315B6 /* DoneConfigController.m */; };
+		8892AF6F2014B2FE00179B7D /* MnemonicConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A3211F3D250000B315B6 /* MnemonicConfigController.m */; };
+		8892AF702014B2FE00179B7D /* MnemonicWarningConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A31B1F3D12B200B315B6 /* MnemonicWarningConfigController.m */; };
+		8892AF712014B2FE00179B7D /* OptionsConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A3111F3CFB1B00B315B6 /* OptionsConfigController.m */; };
+		8892AF722014B2FE00179B7D /* PasswordConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A3241F3E2FA400B315B6 /* PasswordConfigController.m */; };
+		8892AF732014B2FE00179B7D /* ScannerConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29AB10C1F4E4E1C0009FEF0 /* ScannerConfigController.m */; };
+		8892AF742014B2FE00179B7D /* SigningConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B9725D1FE07AD800D4CC18 /* SigningConfigController.m */; };
+		8892AF752014B2FE00179B7D /* TransactionConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B3BE481F4165B400C5EC1C /* TransactionConfigController.m */; };
+		8892AF762014B30400179B7D /* AccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA042D1E428E020013E5A7 /* AccountsViewController.m */; };
+		8892AF772014B30400179B7D /* ApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA042F1E428E020013E5A7 /* ApplicationViewController.m */; };
+		8892AF782014B30400179B7D /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04311E428E020013E5A7 /* InfoViewController.m */; };
+		8892AF792014B30400179B7D /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04331E428E030013E5A7 /* ModalViewController.m */; };
+		8892AF7A2014B30400179B7D /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29620581FBE2B2F00BFA868 /* PanelController.m */; };
+		8892AF7B2014B30400179B7D /* PanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04351E428E030013E5A7 /* PanelViewController.m */; };
+		8892AF7C2014B30400179B7D /* WalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04391E428E030013E5A7 /* WalletViewController.m */; };
+		8892AF7D2014B30B00179B7D /* AccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04191E428DF50013E5A7 /* AccountTableViewCell.m */; };
+		8892AF7E2014B30B00179B7D /* BalanceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA041B1E428DF50013E5A7 /* BalanceLabel.m */; };
+		8892AF7F2014B30B00179B7D /* BlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A3181F3D113000B315B6 /* BlockButton.m */; };
+		8892AF802014B30B00179B7D /* BoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = E29AB10F1F5913B00009FEF0 /* BoxView.m */; };
+		8892AF812014B30B00179B7D /* CloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA041D1E428DF50013E5A7 /* CloudView.m */; };
+		8892AF822014B30B00179B7D /* CrossfadeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FF6A151F46AFC100544B0B /* CrossfadeLabel.m */; };
+		8892AF832014B30B00179B7D /* FlexibleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A3141F3D025D00B315B6 /* FlexibleView.m */; };
+		8892AF842014B30B00179B7D /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B6A31E1F3D18FD00B315B6 /* IconView.m */; };
+		8892AF852014B30B00179B7D /* MnemonicPhraseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA041F1E428DF50013E5A7 /* MnemonicPhraseView.m */; };
+		8892AF862014B30B00179B7D /* QRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04211E428DF50013E5A7 /* QRCodeView.m */; };
+		8892AF872014B30B00179B7D /* SearchTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BF0F931FCA20F900DD1B86 /* SearchTitleView.m */; };
+		8892AF882014B30B00179B7D /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04151E428DF50013E5A7 /* SectionHeaderView.m */; };
+		8892AF892014B30B00179B7D /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04171E428DF50013E5A7 /* TransactionTableViewCell.m */; };
+		8892AF8A2014B30B00179B7D /* WalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04231E428DF50013E5A7 /* WalletView.m */; };
+		8892AF8B2014B31200179B7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA04111E428DDC0013E5A7 /* AppDelegate.m */; };
+		8892AF8C2014B31500179B7D /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA040F1E428DDC0013E5A7 /* Wallet.m */; };
+		8892AF9D2014B4BC00179B7D /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FA046E1E4293750013E5A7 /* ethers.framework */; };
+		8892AFA42014C0D800179B7D /* ConfigController.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B6A30A1F3CF10300B315B6 /* ConfigController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8892AFA52014C1AC00179B7D /* ConfigLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E2491AB41F42642A007DB5A4 /* ConfigLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8892AFA62014C1AC00179B7D /* ConfigTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B6A3271F3E358B00B315B6 /* ConfigTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8892AFA72014C1AC00179B7D /* ConfigView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B6A32A1F3E35A400B315B6 /* ConfigView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8892AFA82014C24300179B7D /* CrossfadeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E2FF6A141F46AFC100544B0B /* CrossfadeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88CED86F2016683F002560D6 /* ConfigToggle.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C167201F4AB5A2001B4A31 /* ConfigToggle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88CED8712016687D002560D6 /* IconView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B6A31D1F3D18FD00B315B6 /* IconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E21481C91E431B9000B87132 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA049C1E43186D0013E5A7 /* TodayViewController.m */; };
 		E21481CA1E431BA800B87132 /* ethers.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FA04931E4315580013E5A7 /* ethers.ttf */; };
 		E21481CB1E431C7E00B87132 /* BalanceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FA041B1E428DF50013E5A7 /* BalanceLabel.m */; };
@@ -88,6 +150,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8892AF9A2014B4B000179B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FA04681E4293750013E5A7 /* ethers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E2317E621E3191AC00DBE3E4;
+			remoteInfo = ethers;
+		};
 		E2FA03FB1E428AC20013E5A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E2FA03D91E428AC10013E5A7 /* Project object */;
@@ -140,6 +209,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8892AF472014B28F00179B7D /* EthersWallet_ios_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EthersWallet_ios_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8892AF492014B28F00179B7D /* EthersWallet_ios_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EthersWallet_ios_Framework.h; sourceTree = "<group>"; };
+		8892AF4A2014B28F00179B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21481D01E43218A00B87132 /* TodayExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TodayExtension.entitlements; path = TodayExtension/TodayExtension.entitlements; sourceTree = "<group>"; };
 		E22A59E51EBA9D8500AEE894 /* Signer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Signer.h; path = src/Utilities/Signers/Signer.h; sourceTree = "<group>"; };
 		E22A59E61EBA9D8500AEE894 /* Signer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Signer.m; path = src/Utilities/Signers/Signer.m; sourceTree = "<group>"; };
@@ -276,6 +348,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8892AF432014B28F00179B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8892AF9D2014B4BC00179B7D /* ethers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FA03DE1E428AC10013E5A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,6 +384,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8892AF482014B28F00179B7D /* EthersWallet-ios-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8892AF492014B28F00179B7D /* EthersWallet_ios_Framework.h */,
+				8892AF4A2014B28F00179B7D /* Info.plist */,
+			);
+			path = "EthersWallet-ios-Framework";
+			sourceTree = "<group>";
+		};
 		E22A59E31EBA9D6400AEE894 /* Signers */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +473,7 @@
 				E2FA03E31E428AC10013E5A7 /* EthersWallet */,
 				E2FA049A1E4318210013E5A7 /* TodayExtension */,
 				E2FA03FD1E428AC20013E5A7 /* EthersWalletTests */,
+				8892AF482014B28F00179B7D /* EthersWallet-ios-Framework */,
 				E2FA03E21E428AC10013E5A7 /* Products */,
 				E2FA04A11E43188F0013E5A7 /* Frameworks */,
 			);
@@ -395,6 +485,7 @@
 				E2FA03E11E428AC10013E5A7 /* EthersWallet.app */,
 				E2FA03FA1E428AC20013E5A7 /* EthersWalletTests.xctest */,
 				E2FA04A91E4319510013E5A7 /* TodayExtension.appex */,
+				8892AF472014B28F00179B7D /* EthersWallet_ios_Framework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -606,7 +697,44 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		8892AF442014B28F00179B7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CED8712016687D002560D6 /* IconView.h in Headers */,
+				88CED86F2016683F002560D6 /* ConfigToggle.h in Headers */,
+				8892AFA82014C24300179B7D /* CrossfadeLabel.h in Headers */,
+				8892AFA52014C1AC00179B7D /* ConfigLabel.h in Headers */,
+				8892AFA62014C1AC00179B7D /* ConfigTextField.h in Headers */,
+				8892AFA72014C1AC00179B7D /* ConfigView.h in Headers */,
+				8892AFA42014C0D800179B7D /* ConfigController.h in Headers */,
+				8892AF4B2014B28F00179B7D /* EthersWallet_ios_Framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		8892AF462014B28F00179B7D /* EthersWallet-ios-Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8892AF532014B28F00179B7D /* Build configuration list for PBXNativeTarget "EthersWallet-ios-Framework" */;
+			buildPhases = (
+				8892AF422014B28F00179B7D /* Sources */,
+				8892AF432014B28F00179B7D /* Frameworks */,
+				8892AF442014B28F00179B7D /* Headers */,
+				8892AF452014B28F00179B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8892AF9B2014B4B000179B7D /* PBXTargetDependency */,
+			);
+			name = "EthersWallet-ios-Framework";
+			productName = "EthersWallet-ios-Framework";
+			productReference = 8892AF472014B28F00179B7D /* EthersWallet_ios_Framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		E2FA03E01E428AC10013E5A7 /* EthersWallet */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2FA04031E428AC20013E5A7 /* Build configuration list for PBXNativeTarget "EthersWallet" */;
@@ -671,6 +799,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = ethers.io;
 				TargetAttributes = {
+					8892AF462014B28F00179B7D = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 7GS2C8FTGM;
+						ProvisioningStyle = Automatic;
+					};
 					E2FA03E01E428AC10013E5A7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 7GS2C8FTGM;
@@ -724,6 +857,7 @@
 				E2FA03E01E428AC10013E5A7 /* EthersWallet */,
 				E2FA03F91E428AC20013E5A7 /* EthersWalletTests */,
 				E2FA04A81E4319510013E5A7 /* TodayExtension */,
+				8892AF462014B28F00179B7D /* EthersWallet-ios-Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -746,6 +880,13 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8892AF452014B28F00179B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FA03DF1E428AC10013E5A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -782,6 +923,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8892AF422014B28F00179B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8892AF822014B30B00179B7D /* CrossfadeLabel.m in Sources */,
+				8892AF732014B2FE00179B7D /* ScannerConfigController.m in Sources */,
+				8892AF5A2014B2E200179B7D /* AsyncOperation.m in Sources */,
+				8892AF782014B30400179B7D /* InfoViewController.m in Sources */,
+				8892AF6A2014B2F600179B7D /* SliderKeyboardView.m in Sources */,
+				8892AF882014B30B00179B7D /* SectionHeaderView.m in Sources */,
+				8892AF712014B2FE00179B7D /* OptionsConfigController.m in Sources */,
+				8892AF572014B2D100179B7D /* Signer.m in Sources */,
+				8892AF8C2014B31500179B7D /* Wallet.m in Sources */,
+				8892AF802014B30B00179B7D /* BoxView.m in Sources */,
+				8892AF842014B30B00179B7D /* IconView.m in Sources */,
+				8892AF7C2014B30400179B7D /* WalletViewController.m in Sources */,
+				8892AF742014B2FE00179B7D /* SigningConfigController.m in Sources */,
+				8892AF632014B2F600179B7D /* ConfigLabel.m in Sources */,
+				8892AF5D2014B2E200179B7D /* SharedDefaults.m in Sources */,
+				8892AF582014B2D100179B7D /* CloudKeychainSigner.m in Sources */,
+				8892AF8A2014B30B00179B7D /* WalletView.m in Sources */,
+				8892AF772014B30400179B7D /* ApplicationViewController.m in Sources */,
+				8892AF872014B30B00179B7D /* SearchTitleView.m in Sources */,
+				8892AF722014B2FE00179B7D /* PasswordConfigController.m in Sources */,
+				8892AF832014B30B00179B7D /* FlexibleView.m in Sources */,
+				8892AF8B2014B31200179B7D /* AppDelegate.m in Sources */,
+				8892AF652014B2F600179B7D /* ConfigTextField.m in Sources */,
+				8892AF892014B30B00179B7D /* TransactionTableViewCell.m in Sources */,
+				8892AF6B2014B2FE00179B7D /* ConfigController.m in Sources */,
+				8892AF612014B2E200179B7D /* Utilities.m in Sources */,
+				8892AF672014B2F600179B7D /* GasLimitKeyboardView.m in Sources */,
+				8892AF7D2014B30B00179B7D /* AccountTableViewCell.m in Sources */,
+				8892AF602014B2E200179B7D /* UIImage+resize.m in Sources */,
+				8892AF662014B2F600179B7D /* ConfigView.m in Sources */,
+				8892AF682014B2F600179B7D /* GasPriceKeyboardView.m in Sources */,
+				8892AF6D2014B2FE00179B7D /* DebugConfigController.m in Sources */,
+				8892AF642014B2F600179B7D /* ConfigToggle.m in Sources */,
+				8892AF5C2014B2E200179B7D /* IndexPathArray.m in Sources */,
+				8892AF6C2014B2FE00179B7D /* ConfigNavigationController.m in Sources */,
+				8892AF852014B30B00179B7D /* MnemonicPhraseView.m in Sources */,
+				8892AF862014B30B00179B7D /* QRCodeView.m in Sources */,
+				8892AF7A2014B30400179B7D /* PanelController.m in Sources */,
+				8892AF7E2014B30B00179B7D /* BalanceLabel.m in Sources */,
+				8892AF5F2014B2E200179B7D /* UIColor+hex.m in Sources */,
+				8892AF752014B2FE00179B7D /* TransactionConfigController.m in Sources */,
+				8892AF762014B30400179B7D /* AccountsViewController.m in Sources */,
+				8892AF792014B30400179B7D /* ModalViewController.m in Sources */,
+				8892AF6E2014B2FE00179B7D /* DoneConfigController.m in Sources */,
+				8892AF5E2014B2E200179B7D /* SignedRemoteDictionary.m in Sources */,
+				8892AF812014B30B00179B7D /* CloudView.m in Sources */,
+				8892AF702014B2FE00179B7D /* MnemonicWarningConfigController.m in Sources */,
+				8892AF7B2014B30400179B7D /* PanelViewController.m in Sources */,
+				8892AF692014B2F600179B7D /* KeyboardView.m in Sources */,
+				8892AF6F2014B2FE00179B7D /* MnemonicConfigController.m in Sources */,
+				8892AF622014B2ED00179B7D /* EthersScriptHandler.m in Sources */,
+				8892AF5B2014B2E200179B7D /* CachedDataStore.m in Sources */,
+				8892AF7F2014B30B00179B7D /* BlockButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FA03DD1E428AC10013E5A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -867,6 +1068,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8892AF9B2014B4B000179B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ethers;
+			targetProxy = 8892AF9A2014B4B000179B7D /* PBXContainerItemProxy */;
+		};
 		E2FA03FC1E428AC20013E5A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E2FA03E01E428AC10013E5A7 /* EthersWallet */;
@@ -885,6 +1091,85 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		8892AF502014B28F00179B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7GS2C8FTGM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "EthersWallet-ios-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qot.EthersWallet-ios-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8892AF512014B28F00179B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7GS2C8FTGM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "EthersWallet-ios-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qot.EthersWallet-ios-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E2FA04011E428AC20013E5A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -978,6 +1263,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = EthersWallet/EthersWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7GS2C8FTGM;
 				INFOPLIST_FILE = EthersWallet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -993,6 +1279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = EthersWallet/EthersWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 7GS2C8FTGM;
 				INFOPLIST_FILE = EthersWallet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -1060,6 +1347,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8892AF532014B28F00179B7D /* Build configuration list for PBXNativeTarget "EthersWallet-ios-Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8892AF502014B28F00179B7D /* Debug */,
+				8892AF512014B28F00179B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E2FA03DC1E428AC10013E5A7 /* Build configuration list for PBXProject "EthersWallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
